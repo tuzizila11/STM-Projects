@@ -1,0 +1,6 @@
+[ProjectFiles]
+HeaderPath=C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\Drivers\CMSIS\Core\Include;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\Drivers\CMSIS\DSP\Include;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\dual_motor\Inc;C:\Program Files\MATLAB\R2020a\simulink\include;C:\MATLAB\STM32-MAT\STM32\addSrc\inc;
+[Groups]
+MATLAB=C:\MATLAB\STM32-MAT\STM32\addSrc\src\getBuffPtr.c;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\dual_motor\Src\dual_motor.c;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\dual_motor\Src\dual_motor_EXTI.c;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\dual_motor\Src\dual_motor_TIM.c;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\dual_motor\Src\dual_motor_USART.c;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\dual_motor\Src\rtGetInf.c;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\dual_motor\Src\rtGetNaN.c;C:\Users\tuziz\Desktop\STM Projects\Matlab DC Dual MOTOR\dual_motor\Src\rt_nonfinite.c;
+[Others]
+Define=MEM_UNIT_BYTES;ARM_MATH_CM4;MemUnit_T:uint8_T;MATLAB_PROJECT;

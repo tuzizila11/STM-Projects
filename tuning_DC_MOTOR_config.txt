@@ -1,0 +1,199 @@
+Telemetry Viewer v0.7 Settings
+
+GUI Settings:
+
+	tile column count = 14
+	tile row count = 12
+	time format = Only Time
+	show 24-hour time = false
+	show plot tooltips = true
+	smooth scrolling = true
+	show fps and period = false
+	chart index for benchmarks = -1
+	antialiasing level = 16
+
+Communication Settings:
+
+	port = UART: COM7
+	uart baud rate = 115200
+	tcp/udp port number = 8080
+	packet type = CSV
+	sample rate = 100
+
+5 Data Structure Locations:
+
+	location = 0
+	binary processor = null
+	name = Period
+	color = 0xFF0000
+	unit = mSec
+	conversion factor a = 100.0
+	conversion factor b = 1.0
+
+	location = 1
+	binary processor = null
+	name = Error
+	color = 0x0000CC
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 2
+	binary processor = null
+	name = PID Signal
+	color = 0x00CCCC
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 3
+	binary processor = null
+	name = Frequency
+	color = 0x00FF66
+	unit = Hz
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 4
+	binary processor = null
+	name = Duty Cycle
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+Checksum:
+
+	location = -1
+	checksum processor = null
+
+6 Charts:
+
+	chart type = Time Domain
+	top left x = 0
+	top left y = 0
+	bottom right x = 6
+	bottom right y = 3
+	normal datasets = 0
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 1000
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = 1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 3.0
+	show x-axis title = false
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 0
+	top left y = 4
+	bottom right x = 6
+	bottom right y = 7
+	normal datasets = 2,3
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 1000
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = 50.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 550.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 0
+	top left y = 8
+	bottom right x = 6
+	bottom right y = 11
+	normal datasets = 4
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 1000
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = 0.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 20.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 7
+	top left y = 0
+	bottom right x = 13
+	bottom right y = 3
+	normal datasets = 1
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 1000
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -100.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 100.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Histogram
+	top left x = 7
+	top left y = 8
+	bottom right x = 13
+	bottom right y = 11
+	normal datasets = 4
+	bitfield edge states = 
+	bitfield level states = 
+	sample count = 1000
+	bin count = 60
+	x-axis is centered = false
+	x-axis center value = 0.0
+	x-axis autoscale minimum = true
+	x-axis manual minimum = 9.0
+	x-axis autoscale maximum = true
+	x-axis manual maximum = 16.0
+	y-axis shows relative frequency = true
+	y-axis shows frequency = false
+	y-axis minimum is zero = true
+	y-axis autoscale maximum = true
+	y-axis manual minimum = 0.0
+	y-axis manual maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+
+	chart type = Camera
+	top left x = 7
+	top left y = 4
+	bottom right x = 13
+	bottom right y = 7
+	camera name = MJPEG over HTTP
+	mjpeg url = http://192.168.1.134:8080/video
+	requested resolution = 640 x 480
+	mirror x-axis ↔ = false
+	mirror y-axis ↕ = false
+	rotate clockwise ↷ = false
+	show label = true
