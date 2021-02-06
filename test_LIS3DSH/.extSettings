@@ -1,0 +1,6 @@
+[ProjectFiles]
+HeaderPath=C:\Users\tuziz\Desktop\STM Projects\test_LIS3DSH\Drivers\CMSIS\Core\Include;C:\Users\tuziz\Desktop\STM Projects\test_LIS3DSH\Drivers\CMSIS\DSP\Include;C:\Users\tuziz\Desktop\STM Projects\test_LIS3DSH\test\Inc;C:\Program Files\MATLAB\R2020a\simulink\include;.\..;.\..\..\..\..\..\..\MATLAB\STM32-MAT\STM32\addSrc\inc;
+[Groups]
+MATLAB=.\..\LIS3DSH.c;.\..\..\..\..\..\..\MATLAB\STM32-MAT\STM32\addSrc\src\getBuffPtr.c;C:\Users\tuziz\Desktop\STM Projects\test_LIS3DSH\test\Src\test.c;C:\Users\tuziz\Desktop\STM Projects\test_LIS3DSH\test\Src\test_EXTI.c;C:\Users\tuziz\Desktop\STM Projects\test_LIS3DSH\test\Src\test_USART.c;
+[Others]
+Define=MEM_UNIT_BYTES;ARM_MATH_CM4;MemUnit_T:uint8_T;MATLAB_PROJECT;

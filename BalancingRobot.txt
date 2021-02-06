@@ -1,0 +1,442 @@
+Telemetry Viewer v0.7 Settings
+
+GUI Settings:
+
+	tile column count = 15
+	tile row count = 12
+	time format = Only Time
+	show 24-hour time = false
+	show plot tooltips = true
+	smooth scrolling = true
+	show fps and period = false
+	chart index for benchmarks = -1
+	antialiasing level = 16
+
+Communication Settings:
+
+	port = UART: COM7
+	uart baud rate = 9600
+	tcp/udp port number = 8080
+	packet type = CSV
+	sample rate = 80
+
+22 Data Structure Locations:
+
+	location = 0
+	binary processor = null
+	name = x
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 1
+	binary processor = null
+	name = y
+	color = 0x0000FF
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 2
+	binary processor = null
+	name = z
+	color = 0x00FF00
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 3
+	binary processor = null
+	name = tmp
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 4
+	binary processor = null
+	name = x1
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 5
+	binary processor = null
+	name = y1
+	color = 0x0000FF
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 6
+	binary processor = null
+	name = z1
+	color = 0x00FF00
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 7
+	binary processor = null
+	name = q0
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 8
+	binary processor = null
+	name = q1
+	color = 0x0000CC
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 9
+	binary processor = null
+	name = q2
+	color = 0xFFFF00
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 10
+	binary processor = null
+	name = q3
+	color = 0x00CC33
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 11
+	binary processor = null
+	name = pitch
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 12
+	binary processor = null
+	name = period
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 13
+	binary processor = null
+	name = error
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 14
+	binary processor = null
+	name = errorM
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 15
+	binary processor = null
+	name = freq
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 16
+	binary processor = null
+	name = dutyCyle
+	color = 0xFF0000
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 17
+	binary processor = null
+	name = period1
+	color = 0x0000FF
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 18
+	binary processor = null
+	name = error1
+	color = 0x0000CC
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 19
+	binary processor = null
+	name = errorM1
+	color = 0x0000CC
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 20
+	binary processor = null
+	name = freq1
+	color = 0x0000CC
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+	location = 21
+	binary processor = null
+	name = dutyCycle1
+	color = 0x0000CC
+	unit = 
+	conversion factor a = 1.0
+	conversion factor b = 1.0
+
+Checksum:
+
+	location = -1
+	checksum processor = null
+
+11 Charts:
+
+	chart type = Time Domain
+	top left x = 0
+	top left y = 0
+	bottom right x = 3
+	bottom right y = 3
+	normal datasets = 0,1,2
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 100
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 4
+	top left y = 0
+	bottom right x = 7
+	bottom right y = 3
+	normal datasets = 4,5,6
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 1000
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 8
+	top left y = 0
+	bottom right x = 11
+	bottom right y = 3
+	normal datasets = 7,8,9,10
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 1000
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Quaternion
+	top left x = 12
+	top left y = 0
+	bottom right x = 14
+	bottom right y = 3
+	normal datasets = 7,8,9,10
+	bitfield edge states = 
+	bitfield level states = 
+	show text label = true
+
+	chart type = Time Domain
+	top left x = 8
+	top left y = 4
+	bottom right x = 11
+	bottom right y = 7
+	normal datasets = 13,18
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 100
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 12
+	top left y = 4
+	bottom right x = 14
+	bottom right y = 7
+	normal datasets = 3
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 1000
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 8
+	top left y = 8
+	bottom right x = 11
+	bottom right y = 11
+	normal datasets = 15,20
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 100
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 12
+	top left y = 8
+	bottom right x = 14
+	bottom right y = 11
+	normal datasets = 11
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 100
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Histogram
+	top left x = 0
+	top left y = 8
+	bottom right x = 7
+	bottom right y = 11
+	normal datasets = 16,21
+	bitfield edge states = 
+	bitfield level states = 
+	sample count = 1000
+	bin count = 60
+	x-axis is centered = false
+	x-axis center value = 0.0
+	x-axis autoscale minimum = true
+	x-axis manual minimum = -1.0
+	x-axis autoscale maximum = true
+	x-axis manual maximum = 1.0
+	y-axis shows relative frequency = true
+	y-axis shows frequency = false
+	y-axis minimum is zero = true
+	y-axis autoscale maximum = true
+	y-axis manual minimum = 0.0
+	y-axis manual maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+
+	chart type = Time Domain
+	top left x = 0
+	top left y = 4
+	bottom right x = 3
+	bottom right y = 7
+	normal datasets = 16,21
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 100
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false
+
+	chart type = Time Domain
+	top left x = 4
+	top left y = 4
+	bottom right x = 7
+	bottom right y = 7
+	normal datasets = 12,17
+	bitfield edge states = 
+	bitfield level states = 
+	duration type = Samples
+	duration = 100
+	x-axis = Sample Count
+	autoscale y-axis minimum = true
+	manual y-axis minimum = -1.0
+	autoscale y-axis maximum = true
+	manual y-axis maximum = 1.0
+	show x-axis title = true
+	show x-axis scale = true
+	show y-axis title = true
+	show y-axis scale = true
+	show legend = true
+	cached mode = false

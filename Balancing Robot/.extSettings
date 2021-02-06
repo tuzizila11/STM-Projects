@@ -1,0 +1,6 @@
+[ProjectFiles]
+HeaderPath=C:\Users\tuziz\Desktop\STM Projects\Balancing Robot\Drivers\CMSIS\Core\Include;C:\Users\tuziz\Desktop\STM Projects\Balancing Robot\Drivers\CMSIS\DSP\Include;C:\Users\tuziz\Desktop\STM Projects\Balancing Robot\BalancingRobot\Inc;C:\Program Files\MATLAB\R2020a\simulink\include;.\..;.\..;.\..;.\..\..\..\..\..\..\MATLAB\STM32-MAT\STM32\addSrc\inc;
+[Groups]
+MATLAB=.\..\pid_gains.c;.\..\MadgwickAHRS.c;.\..\mpu6050.c;.\..\..\..\..\..\..\MATLAB\STM32-MAT\STM32\addSrc\src\getBuffPtr.c;C:\Users\tuziz\Desktop\STM Projects\Balancing Robot\BalancingRobot\Src\BalancingRobot.c;C:\Users\tuziz\Desktop\STM Projects\Balancing Robot\BalancingRobot\Src\BalancingRobot_EXTI.c;C:\Users\tuziz\Desktop\STM Projects\Balancing Robot\BalancingRobot\Src\BalancingRobot_TIM.c;C:\Users\tuziz\Desktop\STM Projects\Balancing Robot\BalancingRobot\Src\BalancingRobot_USART.c;
+[Others]
+Define=MEM_UNIT_BYTES;ARM_MATH_CM4;MemUnit_T:uint8_T;MATLAB_PROJECT;
